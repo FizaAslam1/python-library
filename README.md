@@ -16,6 +16,122 @@ lines of Python. Great as a quick-reference or a starting point for learners who
 - Python 3.9+
 - NumPy (latest)
 
+
+Advanced NumPy Concepts and Functions
+📌 Introduction
+This document covers essential advanced NumPy topics including:
+
+Fancy Indexing
+
+Broadcasting
+
+Differences between NumPy array and Python list
+
+Mathematical functions
+
+Handling missing values
+
+Plotting with NumPy
+
+Key NumPy functions
+
+✅ 1. Fancy Indexing
+Fancy indexing allows passing an array of indices to access multiple elements at once.
+
+python
+Copy
+Edit
+import numpy as np
+
+arr = np.array([10, 20, 30, 40, 50])
+indices = [1, 3]
+print(arr[indices])  # Output: [20 40]
+✅ 2. Broadcasting
+Broadcasting allows NumPy to perform operations on arrays of different shapes.
+
+python
+Copy
+Edit
+a = np.array([1, 2, 3])
+b = 2
+print(a + b)  # Output: [3 4 5]
+✅ 3. NumPy Array vs Python List
+Feature	Python List	NumPy Array
+Performance	Slower	Faster (C-based)
+Type Flexibility	Mixed types allowed	Same type only
+Broadcasting	Not supported	Supported
+Memory Usage	High	Low
+
+✅ 4. Mathematical Formulas
+python
+Copy
+Edit
+a = np.array([1, 2, 3, 4])
+
+print(np.sum(a))       # 10
+print(np.mean(a))      # 2.5
+print(np.std(a))       # Standard deviation
+print(np.max(a))       # 4
+print(np.min(a))       # 1
+✅ 5. Handling Missing Values
+python
+Copy
+Edit
+a = np.array([1, 2, np.nan, 4])
+
+print(np.nanmean(a))    # Mean ignoring NaN
+print(np.isnan(a))      # Boolean array for NaNs
+✅ 6. Plotting Graph (with matplotlib)
+python
+Copy
+Edit
+import matplotlib.pyplot as plt
+
+x = np.linspace(0, 10, 100)
+y = np.sin(x)
+
+plt.plot(x, y)
+plt.title('Sine Wave')
+plt.show()
+✅ 7. Important NumPy Functions
+Function	Description
+np.sort()	Sorts array
+np.concatenate()	Joins arrays
+np.append()	Appends values
+np.flip()	Reverses elements
+np.delete()	Deletes elements
+np.clip()	Limits values within bounds
+np.put()	Replaces values at specific indices
+np.corrcoef()	Correlation coefficient
+np.histogram()	Returns histogram data
+np.cumsum()	Cumulative sum
+np.percentile()	Percentile value
+np.argmax()	Index of max value
+np.argmin()	Index of min value
+
+💡 Examples:
+python
+Copy
+Edit
+a = np.array([5, 1, 7, 3])
+print(np.sort(a))         # [1 3 5 7]
+print(np.flip(a))         # [3 7 1 5]
+print(np.clip(a, 2, 6))   # [5 2 6 3]
+print(np.cumsum(a))       # [5 6 13 16]
+print(np.percentile(a, 50)) # Median = 5
+📌 Summary
+These advanced NumPy features are key for efficient numerical computing and data manipulation. Mastering them will help in:
+
+Scientific computing
+
+Machine learning
+
+Data analysis
+
+Statistical visualization
+
+
+
 Install:
 bash
 python -m venv .venv
