@@ -1,1 +1,126 @@
+📘 Pandas Series Practice – 129 Lines of Code
+This project contains a complete hands-on practice of Pandas Series in Python. It covers all the essential operations and features required to master Series objects using the pandas library. The focus is purely on Series, not DataFrames.
 
+📂 File Structure
+series_practice.ipynb — Jupyter Notebook with all 129 lines of Pandas Series code
+
+README.md — Project explanation and usage
+
+✅ Topics Covered
+The following Pandas Series concepts are included:
+
+1. Creating Series
+From lists, tuples, dictionaries
+
+With custom index
+
+Using NumPy arrays
+
+2. Series Attributes
+.index
+
+.values
+
+.dtype
+
+.shape
+
+.size
+
+.ndim
+
+3. Indexing and Slicing
+Positional indexing []
+
+Label-based indexing .loc[]
+
+Conditional filtering
+
+Boolean masks
+
+Fancy indexing
+
+4. Mathematical Operations
+Addition, subtraction
+
+Broadcasting
+
+Vectorized operations
+
+Aggregates: sum(), mean(), min(), max(), etc.
+
+5. Functions and Methods
+head(), tail()
+
+sort_values(), sort_index()
+
+value_counts(), unique(), nunique()
+
+apply() and lambda functions
+
+6. Handling Missing Values
+isnull(), notnull()
+
+fillna(), dropna()
+
+7. Plotting with Series
+Basic line plot
+
+Bar plot using matplotlib / pandas.plot()
+
+8. Other Operations
+Membership testing (in, not in)
+
+Type casting: astype()
+
+Copying vs referencing
+
+Using .get() method
+
+Series from CSV columns (e.g. sampling movie names)
+
+📌 Requirements
+Python 3.x
+
+pandas
+
+numpy
+
+matplotlib (for plotting)
+
+bash
+Copy
+Edit
+pip install pandas numpy matplotlib
+🚀 How to Run
+Open series_practice.ipynb in Jupyter Notebook or Google Colab
+
+Run each cell step by step to understand Series operations
+
+Customize with your own data for deeper learning
+
+📈 Sample Output
+python
+Copy
+Edit
+import pandas as pd
+
+data = pd.Series([10, 20, 30, 40], index=['a', 'b', 'c', 'd'])
+print(data)
+
+# Output:
+# a    10
+# b    20
+# c    30
+# d    40
+# dtype: int64
+🧠 Learning Outcome
+By completing this notebook, you'll understand:
+
+What a Pandas Series is and how it's different from a DataFrame
+
+How to manipulate, filter, and analyze Series data
+
+How to plot Series using basic charts
+
+How to prepare data for ML or visualization using Series-level operations
