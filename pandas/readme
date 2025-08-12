@@ -124,3 +124,56 @@ How to manipulate, filter, and analyze Series data
 How to plot Series using basic charts
 
 How to prepare data for ML or visualization using Series-level operations
+
+
+
+📂 Project Title:
+Exploring Pandas DataFrame Functionality in Python
+
+🧠 About:
+This notebook focuses on practical implementation of various Pandas DataFrame functions in Python. After completing work on Pandas Series, this project continues the journey into DataFrames — covering creation, inspection, selection, modification, and useful built-in operations.
+
+✅ Note: All Series-specific functions already covered in the previous notebook are excluded here.
+
+📌 Topics Covered:
+Creating DataFrames using lists, dictionaries, NumPy arrays
+
+Reading and writing CSV/Excel files
+
+Viewing and inspecting data:
+
+.head(), .tail(), .info(), .describe(), .shape, .dtypes
+
+Selecting data using:
+
+loc[], iloc[], conditional filtering
+
+Adding, renaming, and dropping columns
+
+Updating values in a DataFrame
+
+Sorting data using:
+
+.sort_values(), .sort_index()
+
+Handling missing data:
+
+.isnull(), .notnull(), .fillna(), .dropna()
+
+Grouping and aggregation:
+
+.groupby(), .agg(), .mean(), .sum()
+
+Merging, joining, and concatenating DataFrames
+
+Applying functions using .apply() and lambda
+
+Working with duplicate data
+
+Exporting DataFrames back to files
+
+🛠 Libraries Used:
+Pandas
+
+NumPy (where required)
+
