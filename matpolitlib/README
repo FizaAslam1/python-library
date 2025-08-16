@@ -1,0 +1,59 @@
+
+
+### ✅ 1. Basics of Matplotlib
+- Line plot (2D)
+- Plotting mathematical functions
+- Plotting data from pandas DataFrame
+- Multiple plots on same figure
+- Customizing plots: titles, labels, colors, line width, styles, markers
+- Legends and axis limits
+- Grid lines and `plt.show()`
+
+### ✅ 2. Scatter Plots
+- Basic scatter plot
+- Scatter plot using pandas
+- Customizing: marker size, color, labels
+- Difference between `plt.plot()` vs `plt.scatter()`
+
+### ✅ 3. Bar Charts
+- Vertical & horizontal bar charts
+- Multiple bar charts
+- Handling label overlaps
+- Stacked bar charts
+- Custom xticks
+
+### ✅ 4. Histograms
+- Simple histogram
+- Histogram using dataset
+- Logarithmic scaling
+
+### ✅ 5. Pie Charts
+- Simple pie charts
+- Pie charts on datasets
+- Percentage, labels, colors
+- Shadow & explode options
+- Multi-index pie plots
+
+### ✅ 6. Advanced Plotting
+- Changing Matplotlib style
+- Saving figures using `plt.savefig()`
+
+---
+
+## 🔷 Bonus Visuals
+
+### 📈 Subplots
+- Multiple graphs in one figure
+- Custom layouts
+
+### 🌐 3D Plotting
+- 3D scatter plots
+- 3D line plots
+- 3D surface plots
+
+### 🌀 Contour & Heatmaps
+- Contour and filled contour plots
+- Heatmaps from data
+
+### 🐼 Pandas `.plot()` Function
+- Line, scatter, bar, stacked bar, histogram, and pie chart using pandas
