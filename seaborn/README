@@ -1,1 +1,95 @@
 
+# 📊 Seaborn Visualization Project – Mastering Data Storytelling with Python
+
+This project contains a complete walkthrough of Seaborn — a powerful statistical data visualization library built on top of Matplotlib. The codebase and notes are aligned with my structured session covering both **figure-level** and **axis-level** plotting functions.
+
+---
+
+## 📁 Dataset
+Example datasets from Seaborn (`tips`, `penguins`, `diamonds`, etc.) or custom CSVs were used to demonstrate each visualization type.
+
+---
+
+## 🧰 Libraries Used
+
+- `Seaborn` (main library)
+- `Matplotlib` (for customization)
+- `Pandas` (for data manipulation)
+
+---
+
+## 🗺️ Seaborn Plotting Roadmap
+
+### ✅ 1. **Relational Plots**
+- `scatterplot()` – axis-level
+- `relplot()` – figure-level (supports multi-plot layouts)
+- Parameters: `hue`, `size`, `style`
+- Advanced: `FacetGrid`, `col_wrap`, `kind='line'`
+
+### ✅ 2. **Distribution Plots**
+- `histplot()` – histogram
+- `distplot()` – older histogram (figure-level)
+- `kdeplot()` – kernel density estimation
+- `rugplot()` – tiny ticks for distribution
+- Categorical histogram plotting
+- Bivariate histograms and KDE plots
+
+### ✅ 3. **Categorical Plots**
+- `barplot()`
+- `violinplot()`
+
+### ✅ 4. **Regression Plots**
+- `regplot()`
+- `lmplot()` – figure-level with faceting
+
+### ✅ 5. **Matrix Plots**
+- `heatmap()` – with annotation, linewidths, color maps
+- `clustermap()` – dendrogram-based grouping
+
+### ✅ 6. **MultiPlots & Layouts**
+- `FacetGrid`, `col`, `row`, `col_wrap`
+- Grid-based multiplots using `relplot()` and `displot()`
+
+---
+
+## 🔍 Key Customizations Learned
+
+- **Figure size control**
+- **Using categorical variables for color & style**
+- **Adding annotations to heatmaps**
+- **Adjusting bin size in histograms**
+- **Styling scatter/line plots by group**
+- **Comparing axis-level vs figure-level functions**
+
+---
+
+## 📈 Sample Visuals Created
+
+- 🎯 Scatter plot with hue, size, and style
+- 📉 KDE plot + Rugplot + Bi-variate KDE
+- 📊 Multi-histogram faceted by category
+- 🔥 Annotated heatmap with custom color maps
+- 🎛️ Violin vs Bar plots for categorical distributions
+- 🔄 Clustermap showing grouping similarity
+
+---
+
+## 💼 Summary
+
+This project demonstrates hands-on mastery of Seaborn’s powerful plotting system. From relational and distribution plots to statistical and matrix-level visuals — this repo reflects real-world skills for data analysis and storytelling in Python.
+
+---
+
+## 🌟 What's Next?
+
+- Integrate Seaborn plots into **Jupyter Dashboards**
+- Apply plots to real business data (Retail, Healthcare, etc.)
+- Learn **Plotly** or **Altair** for interactivity
+
+---
+
+## 📌 Author
+
+**Fiza Aslam**  
+
+
