@@ -1,11 +1,5 @@
 
-# 📊 Seaborn Visualization Project – Mastering Data Storytelling with Python
 
-This project contains a complete walkthrough of Seaborn — a powerful statistical data visualization library built on top of Matplotlib. The codebase and notes are aligned with my structured session covering both **figure-level** and **axis-level** plotting functions.
-
----
-
-## 📁 Dataset
 Example datasets from Seaborn (`tips`, `penguins`, `diamonds`, etc.) or custom CSVs were used to demonstrate each visualization type.
 
 ---
@@ -72,7 +66,77 @@ Example datasets from Seaborn (`tips`, `penguins`, `diamonds`, etc.) or custom C
 - 🎛️ Violin vs Bar plots for categorical distributions
 - 🔄 Clustermap showing grouping similarity
 
+# 📊 Seaborn Categorical & Regression Plots - Visual Analytics with Python
+
+This notebook is part of a complete **Seaborn Visualization Series**, focusing on mastering **categorical plots**, **regression analysis**, and **multi-plot grids** — core components for any data visualization and analytics project.
+
+🔗 **GitHub Repository:** [Seaborn Visualizations](https://github.com/FizaAslam1/python-library/tree/main/seaborn)
+
 ---
+
+## 🧭 Chapters Covered
+
+### 📁 1. Categorical Plots
+
+-  Introduction to Categorical Plots
+- `stripplot()` – raw data spread with jitter
+- `catplot()` – figure-level categorical plotting
+- `swarmplot()` – spread with collision avoidance
+
+### 📁 2. Categorical Distribution Plots
+
+- *`boxplot()` – statistical summary using quartiles
+-  `violinplot()` – box + KDE for distribution shape
+
+### 📁 3. Categorical Estimate Plots
+
+- * `barplot()` – central tendency with CI bars
+- * `pointplot()` – point-wise trend comparison
+- *`countplot()` – count of observations per category
+- *Faceting with categorical plots (`row`, `col`, `hue`)
+
+### 📁 4. Regression Plots
+
+- `regplot()` – scatter + regression line (axis-level)
+- `lmplot()` – regression with facets (figure-level)
+-  `residplot()` – residual error plots
+
+### 📁 5. Multi-Plot Grids
+
+- `FacetGrid` – subplots for subgroups
+- `pairplot()` & `PairGrid` – pairwise relationships
+-  `JointGrid()` & `jointplot()` – bivariate distributions
+
+### 🛠️ Bonus Utilities
+
+- * `load_dataset()` – using built-in datasets like `tips`, `diamonds`, `penguins`
+-  Blog idea generation for Seaborn
+
+---
+
+## 💡 Key Takeaways
+
+- Difference between **axis-level** and **figure-level** functions
+- How to visualize **categorical comparisons** with distribution and estimate plots
+- Performing **linear regression** with multiple visual perspectives
+- Leveraging **FacetGrid and multi-plot layouts** for better data insights
+- Using Seaborn’s built-in datasets for practice and learning
+
+---
+
+## 🚀 How to Run
+
+```bash
+# Clone the repo
+git clone https://github.com/FizaAslam1/python-library.git
+
+# Navigate to Seaborn folder
+cd python-library/seaborn
+
+# Run in Jupyter
+jupyter notebook
+
+## 📁 Dataset
 
 ## 💼 Summary
 
